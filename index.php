@@ -4,7 +4,7 @@
 
 
 
-$dsn = 'mysql:dbname=bd_chamadinhaa;host=127.0.0.1';
+$dsn = 'mysql:dbname=bd_chamadinha;host=127.0.0.1';
 $user = 'root';
 $password = '';
 
