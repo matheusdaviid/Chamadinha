@@ -58,13 +58,13 @@ $dados = $banco->query($select)->fetch();
         </div>
             <div class="row mt-2">
                 <div class="col">
-                    <label for="data_nacimento">telefone</label>
+                    <label for="data_nascimento">Data nascimento</label>
                     <input type="date" value="<?=  $dados ['nascimento'] ?>" disabled class="form-control">
                 </div>
 
                 <div class="col my-4 pt-2">
 
-                    <input type="checkbox" value="checred" disabled class="form-check-input">
+                    <input type="checkbox" value="checked" disabled class="form-check-input">
                     <label for="frequente">frequente</label>
                 </div>
             </div>
